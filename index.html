@@ -2,8 +2,51 @@
     <head>
         <meta charset="utf-8">
         <title>Rock Paper Scissors Game</title>
-        <script type="text/javascript" src="script/global.js"></script>
+        <script type="text/javascript" src="script/global.js" defer></script>
+        <link rel="stylesheet" href="style/style.css">
     </head>
-    <body>       
+    <body> 
+        <div class="startup-container">
+            <div class="startup-box">
+                <div class="startup-text">
+                    <p><strong>Welcome!</strong></p>
+                    <p>You've been selected to challenge our most advanced computer in a battle of rock-paper-scissors</p>
+                </div>
+                <div class="startup-button">
+                    <button id="startGameButton" class="startup-button-style">Start!</button>
+                </div>
+            </div>
+        </div>
+        <div class="game-container">
+            <div class="game-box">
+                <div class="game-status-text">
+                    Behold my might!
+                </div>
+
+                <div class="game-pick-text">
+                    You dare to challenge me? Pick one!
+                </div>
+                <div class="game-pick">
+                    <div class="game-option game-rock">Rock</div>
+                    <div class="game-option game-paper">Paper</div>
+                    <div class="game-option game-scissors">Scissors</div>
+                </div>
+                <div class="game-extra">
+                    <div class="game-extra-text">
+                        <p><strong>Scoreboard</strong></p>
+                        <p id="game-score-you">Your victories: 0</p>
+                        <p id="game-score-computer">Computer victories: 0</p>
+                        <p id="game-score-winner"></p>
+                        <p class="game-score-disclaimer"><em>Note: first to get 5 points wins!</em></p>
+                    </div>
+                    <div class="game-extra-button">
+                        <p><strong>Options</strong></p>
+                        <button id="difficultyGameButton" class="game-extra-button-style">Hard mode</button>
+                        <button id="resetGameButton" class="game-extra-button-style">Reset</button>
+                        <button id="giveUpGameButton" class="game-extra-button-style">Go back!</button>
+                    </div>
+                </div>
+            </div>
+        </div>   
     </body>
 </html>

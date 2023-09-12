@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e7eb;
+}
+
+.startup-container {
+    padding: 50px 8%;
+    margin: 0px;
+    border: 0px;
+}
+
+.game-container {
+    padding: 50px 8%;
+    margin: 0px;
+    border: 0px;
+    display: none;
+}
+
+.startup-box {
+    background-color: #10459b;
+    border-radius: 5px;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 60px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.startup-button
+{
+    display: flex;
+    align-content: center;
+}
+
+.startup-button-style
+{
+    display: block;
+    background-color: #10459b;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px 20px;
+    align-self: center;
+}
+
+.startup-text
+{
+    padding-right: 20px;
+}
+
+.startup-text p
+{
+    display:flex;
+    margin: 6px;
+    margin-left: 0px;
+}
+
+.game-box {
+    background-color: #0b2e66;
+    border-radius: 5px;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px;
+    align-content: center;
+    transition: all 2s;
+}
+
+.game-status-text
+{
+    display:flex;
+    margin: 6px;
+    font-size: 32px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.game-pick-text
+{
+    display:flex;
+    margin: 6px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.game-pick
+{
+    display:flex;
+    flex-direction: row;
+    padding: 20px;
+    align-self: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.game-option
+{
+    display: flex;
+    flex: 1;
+    background-color: #021a41;
+    border: 2px solid #021a41;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.game-extra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.game-extra-text
+{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: #1c407a;
+    border: 1px solid #103d86;
+    border-radius: 6px;
+    flex: 1;
+    margin: 5px;
+}
+
+.game-extra-text p
+{
+    display:flex;
+    margin: 6px;
+    margin-left: 0px;
+}
+
+.game-score-disclaimer
+{
+    display: flex;
+    align-self: flex-end;
+}
+
+.game-extra-button
+{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    background-color: #1c407a;
+    border: 1px solid #103d86;
+    border-radius: 6px;
+    margin: 5px;
+}
+
+.game-extra-button p
+{
+    margin: 6px;
+    align-self: center;
+}
+
+.game-extra-button-style
+{
+    display: block;
+    background-color: #010e24;
+    color: white;
+    border: 1px solid #010e24;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px 20px;
+    align-self: center;
+    margin: 10px;
+}
+
