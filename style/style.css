@@ -173,3 +173,11 @@ body {
     margin: 10px;
 }
 
+.footer {
+    display: flex;
+    padding-top: 30px;
+    font-size: 14px;
+    justify-content: center;
+
+}
+
